@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GazeRecorderAPI integration example</title>
+    <script src="https://app.gazerecorder.com/GazeCloudAPI.js"></script>
+    <script src="https://app.gazerecorder.com/GazeRecorderAPI.js"></script>
+    <script src="https://app.gazerecorder.com/GazePlayer.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="navi" style="display:none; position: fixed; top: 0; left: 0; opacity: .8; margin-left:auto; margin-right:auto; z-index: 90;">
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="name" required size="50" value="https://www.bing.com">
+        <button onclick="navigate();" type="button">Go</button>
+        <button onclick="playRecording();" type="button">Finish Recording, Play Results</button>
+    </div>
+
+    <h1 style="text-align: center;">GazeRecorderAPI integration example</h1>
+
+    <div style="background-color: white; position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);">
+        <p style="text-align: center;">URL</p>
+        <input type="text" id="urlstart" name="name" required size="50" value="https://www.bing.com">
+        <button onclick="startRecording();" type="button">Start</button>
+    </div>
+
+    <div id="playerdiv" style="background-color: white; position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);"></div>
+</body>
+</html>
+

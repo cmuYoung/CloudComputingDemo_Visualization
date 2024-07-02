@@ -10,9 +10,9 @@ def oauth():
     AUTHORIZATION_URL = "https://accounts.google.com/o/oauth2/auth"
     TOKEN_URL = "https://oauth2.googleapis.com/token"
     REVOKE_URL = ""
-    CLIENT_ID = "641229130582-gvj43lhmjg9qpcsnjnf21e5cn5ej3gr8.apps.googleusercontent.com"
-    CLIENT_SECRET = "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"
-    REDIRECT_URI = "http://team1.forpaws.ai"
+    CLIENT_ID = "641229130582-gvj43lhmjg9qpcsnjnf21e5cn5ej3gr8.apps.googleusercontent.com" # CHANGE THIS!!!
+    CLIENT_SECRET = "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" # CHANGE THIS!!!
+    REDIRECT_URI = "http://svyoungscholars.org" # CHANGE THIS!!!
     SCOPE = "openid email profile"
     REVOKE_URL = "https://oauth2.googleapis.com/revoke"
 

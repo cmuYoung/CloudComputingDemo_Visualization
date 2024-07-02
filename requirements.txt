@@ -1,0 +1,8 @@
+st_pages
+streamlit_extras
+streamlit_oauth
+yfinance
+plotly
+folium
+streamlit_folium
+geopy

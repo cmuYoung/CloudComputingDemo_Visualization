@@ -1,8 +1,3 @@
-from langchain.chains import LLMChain
-from langchain.llms.bedrock import Bedrock
-from langchain.prompts import PromptTemplate
-from openai import OpenAI
-import boto3
 import json
 import io
 import os
@@ -11,29 +6,18 @@ import time
 import re
 from time import sleep
 import streamlit as st
-import pydeck as pdk
-import googlemaps
+#import googlemaps
 import os
 import pandas as pd
 import sqlite3
-from streamlit_feedback import streamlit_feedback
 import datetime
 import base64
-from PIL import Image
 from st_pages import Page, Section, show_pages, add_page_title
 from utils.oauth import oauth
 from st_pages import Page, show_pages, add_page_title
 from streamlit_extras.switch_page_button import switch_page
 import folium
 from streamlit_folium import folium_static
-
-#st.set_page_config(page_title="Four Paws", page_icon="🐶")
-
-# Optional -- adds the title and icon to the current page
-#add_page_title()
-
-# Specify what pages should be shown in the sidebar, and what their titles and icons
-# should be
 
 pages_to_show = [
     Page("CloudDemo.py", "CMU Cloud Computing Demo", "📌")

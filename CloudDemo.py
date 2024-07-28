@@ -26,8 +26,8 @@ pages_to_show = [
 if 'auth' in st.session_state:
     pages_to_show.append(Page("fp_pages/show_stock_chart.py", "Stock Performance", "📈"))
     pages_to_show.append(Page("fp_pages/show_location_map.py", "Map Based on Location", "🗺️"))
-    pages_to_show.append(Page("fp_pages/gaze_recorder.py", "Gaze Recorder", "📌"))
-    pages_to_show.append(Page("fp_pages/manage_videos.py", "Manage Videos", "📌"))
+    #pages_to_show.append(Page("fp_pages/gaze_recorder.py", "Gaze Recorder", "📌"))
+    #pages_to_show.append(Page("fp_pages/manage_videos.py", "Manage Videos", "📌"))
     pages_to_show.append(Page("fp_pages/user_profile.py", "User Profile", "🔧"))
 
     st.session_state["admin_flag"] = 'Y'

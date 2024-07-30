@@ -1,8 +1,8 @@
-st_pages
-streamlit_extras
-streamlit_oauth
-yfinance
-plotly
-folium
-streamlit_folium
-geopy
+st_pages==0.5.0
+streamlit_extras==0.4.3
+streamlit_oauth==0.1.13
+yfinance==0.2.41
+plotly==5.23.0
+folium==0.17.0
+streamlit_folium==0.22.0
+geopy==2.4.1
